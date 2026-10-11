@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.container {
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #020617;
+}
+
+tr {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+tr:hover {
+  background: #1e293b;
+}
+
+tr.active {
+  background: #064e3b;
+  border-left: 5px solid #00ff88;
+}
+
+h2 {
+  margin-top: 20px;
+}
